@@ -187,4 +187,5 @@ if 'pdf_q' in st.session_state:
             data=st.session_state['pdf_a'],
             file_name=f"答え_{suffix}.pdf",
             mime="application/pdf"
+
         )
